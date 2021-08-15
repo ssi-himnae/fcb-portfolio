@@ -1,0 +1,79 @@
+/*
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Roboto', sans-serif;
+*/
+
+*{
+
+	/*Default Font*/
+	font-family: 'Roboto', sans-serif;
+
+}
+
+h1,h2 {
+
+	font-family: 'Montserrat', sans-serif;
+	
+}
+
+img {
+
+	height: 250px;
+	width: 250px;
+
+}
+
+#landing {
+
+	height: 80vh;
+	/*vh=viewpoint height, 80vh=80%*/
+	/*center content using flexbox*/
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+}
+
+#gallery {
+
+	height: 75vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	border-radius: 6px;
+
+}
+
+ul {
+
+	list-style: none;
+	padding:  0;
+
+}
+
+h2 {
+
+	color: #007bff;
+}
+
+.tools {
+
+	/*to select "id", use: "#"; to select "class", use: "."*/
+	padding: 25px;
+	/*padding: adds space INSIDE the elements selected*/
+	border: 5px solid #f2f2f2;
+	margin: 20px;
+	/*margin: adds space OUTSIDE the elements selected*/
+	height: 200px;
+	width: 75%;
+
+}
+
+html {
+
+	scroll-behavior: smooth;
+
+}
